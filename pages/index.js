@@ -65,7 +65,9 @@ export default function Home() {
               <div className='flex items-center justify-between'>
                 <div className=''>
                   <h1 className='pb-6'>
-                    <span className='inline-block text-base uppercase pb-4'>hi there 👋 I'm</span>
+                    <span className='inline-block text-base uppercase pb-4'>
+                      hi there 👋 I&apos;m
+                    </span>
                     <br />
                     <span className='inline-block text-7xl font-bold font-palyfair capitalize pb-4'>
                       <span className='underline decoration-primary'>mustafa</span> masoudi
