@@ -10,9 +10,9 @@ const ParticlesComponents = () => {
             value: '#000000',
           },
           image: '',
-          position: '',
-          repeat: '',
-          size: '',
+          position: '50% 50%',
+          repeat: 'no-repeat',
+          size: 'cover',
           opacity: 1,
         },
         backgroundMask: {
@@ -36,8 +36,8 @@ const ParticlesComponents = () => {
           detectsOn: 'window',
           events: {
             onClick: {
-              enable: false,
-              mode: [],
+              enable: true,
+              mode: 'absorber',
             },
             onDiv: {
               selectors: [],
@@ -46,8 +46,8 @@ const ParticlesComponents = () => {
               type: 'circle',
             },
             onHover: {
-              enable: false,
-              mode: [],
+              enable: true,
+              mode: 'repulse',
               parallax: {
                 enable: false,
                 force: 2,
@@ -69,9 +69,11 @@ const ParticlesComponents = () => {
               distance: 200,
             },
             bubble: {
-              distance: 200,
-              duration: 0.4,
+              distance: 400,
+              duration: 2,
               mix: false,
+              opacity: 0.8,
+              size: 40,
             },
             connect: {
               distance: 80,
@@ -81,7 +83,7 @@ const ParticlesComponents = () => {
               radius: 60,
             },
             grab: {
-              distance: 100,
+              distance: 400,
               links: {
                 blink: false,
                 consent: false,
@@ -92,7 +94,7 @@ const ParticlesComponents = () => {
               area: {
                 gradient: {
                   start: {
-                    value: '#ffffff',
+                    value: '#adb5bd',
                   },
                   stop: {
                     value: '#000000',
@@ -132,6 +134,30 @@ const ParticlesComponents = () => {
               pauseOnStop: false,
               quantity: 1,
             },
+            absorbers: {
+              color: {
+                value: '',
+              },
+              draggable: false,
+              opacity: 1,
+              destroy: true,
+              orbits: false,
+              size: {
+                random: {
+                  enable: true,
+                  minimumValue: 5,
+                },
+                value: {
+                  min: 5,
+                  max: 10,
+                },
+                density: 5,
+                limit: {
+                  radius: 50,
+                  mass: 0,
+                },
+              },
+            },
           },
         },
         manualParticles: [],
@@ -149,14 +175,14 @@ const ParticlesComponents = () => {
                 enable: false,
                 minimumValue: 0.1,
               },
-              value: 0,
+              value: 1,
             },
             vertical: {
               random: {
                 enable: false,
                 minimumValue: 0.1,
               },
-              value: 0,
+              value: 1,
             },
           },
           collisions: {
@@ -184,13 +210,13 @@ const ParticlesComponents = () => {
             },
           },
           color: {
-            value: ['#1E00FF', '#FF0061', '#E1FF00', '#00FF9E'],
+            value: '#adb5bd',
             animation: {
               h: {
                 count: 0,
-                enable: true,
+                enable: false,
                 offset: 0,
-                speed: 30,
+                speed: 1,
                 sync: true,
               },
               s: {
@@ -257,17 +283,17 @@ const ParticlesComponents = () => {
           links: {
             blink: false,
             color: {
-              value: '#fff',
+              value: '#adb5bd',
             },
             consent: false,
-            distance: 100,
-            enable: false,
+            distance: 150,
+            enable: true,
             frequency: 1,
-            opacity: 1,
+            opacity: 0.4,
             shadow: {
               blur: 5,
               color: {
-                value: '#00ff00',
+                value: '',
               },
               enable: false,
             },
@@ -287,20 +313,20 @@ const ParticlesComponents = () => {
               distance: 200,
               enable: false,
               rotate: {
-                x: 3000,
-                y: 3000,
+                x: 600,
+                y: 1200,
               },
             },
-            decay: 0.1,
+            decay: 0,
             distance: {},
-            direction: 'top',
+            direction: 'none',
             drift: 0,
             enable: true,
             gravity: {
               acceleration: 9.81,
-              enable: true,
+              enable: false,
               inverse: false,
-              maxSpeed: 200,
+              maxSpeed: 50,
             },
             path: {
               clamp: true,
@@ -315,18 +341,15 @@ const ParticlesComponents = () => {
               options: {},
             },
             outModes: {
-              default: 'destroy',
-              bottom: 'bounce',
-              left: 'destroy',
-              right: 'destroy',
-              top: 'none',
+              default: 'out',
+              bottom: 'out',
+              left: 'out',
+              right: 'out',
+              top: 'out',
             },
             random: false,
             size: false,
-            speed: {
-              min: 50,
-              max: 150,
-            },
+            speed: 2,
             spin: {
               acceleration: 0,
               enable: false,
@@ -348,22 +371,26 @@ const ParticlesComponents = () => {
               area: 800,
               factor: 1000,
             },
-            limit: 300,
-            value: 0,
+            limit: 0,
+            value: 80,
           },
           opacity: {
             random: {
-              enable: false,
+              enable: true,
               minimumValue: 0.1,
             },
-            value: 1,
+            value: {
+              min: 0.1,
+              max: 0.5,
+            },
             animation: {
               count: 0,
-              enable: false,
-              speed: 0.3,
-              sync: true,
-              destroy: 'min',
-              startValue: 'max',
+              enable: true,
+              speed: 3,
+              sync: false,
+              destroy: 'none',
+              startValue: 'random',
+              minimumValue: 0.1,
             },
           },
           orbit: {
@@ -399,35 +426,29 @@ const ParticlesComponents = () => {
           },
           roll: {
             darken: {
-              enable: true,
-              value: 30,
+              enable: false,
+              value: 0,
             },
-            enable: true,
+            enable: false,
             enlighten: {
-              enable: true,
-              value: 30,
+              enable: false,
+              value: 0,
             },
             mode: 'vertical',
-            speed: {
-              min: 15,
-              max: 25,
-            },
+            speed: 25,
           },
           rotate: {
             random: {
               enable: false,
               minimumValue: 0,
             },
-            value: {
-              min: 0,
-              max: 360,
-            },
+            value: 0,
             animation: {
-              enable: true,
-              speed: 60,
+              enable: false,
+              speed: 0,
               sync: false,
             },
-            direction: 'random',
+            direction: 'clockwise',
             path: false,
           },
           shadow: {
@@ -442,36 +463,26 @@ const ParticlesComponents = () => {
             },
           },
           shape: {
-            options: {
-              polygon: [
-                {
-                  sides: 5,
-                },
-                {
-                  sides: 6,
-                },
-              ],
-              character: [
-                {
-                  value: ['💩', '🤡', '🍀', '🍙'],
-                },
-              ],
-            },
-            type: ['circle', 'square', 'polygon', 'character', 'character', 'character'],
+            options: {},
+            type: 'circle',
           },
           size: {
             random: {
-              enable: false,
+              enable: true,
               minimumValue: 1,
             },
-            value: 3,
+            value: {
+              min: 1,
+              max: 50,
+            },
             animation: {
               count: 0,
               enable: false,
-              speed: 5,
+              speed: 20,
               sync: false,
               destroy: 'none',
               startValue: 'random',
+              minimumValue: 0.1,
             },
           },
           stroke: {
@@ -482,17 +493,14 @@ const ParticlesComponents = () => {
               enable: false,
               minimumValue: 0,
             },
-            value: {
-              min: 0,
-              max: 360,
-            },
+            value: 0,
             animation: {
-              enable: true,
-              speed: 60,
+              enable: false,
+              speed: 0,
               sync: false,
             },
-            direction: 'random',
-            enable: true,
+            direction: 'clockwise',
+            enable: false,
           },
           twinkle: {
             lines: {
@@ -507,12 +515,9 @@ const ParticlesComponents = () => {
             },
           },
           wobble: {
-            distance: 30,
-            enable: true,
-            speed: {
-              min: -15,
-              max: 15,
-            },
+            distance: 5,
+            enable: false,
+            speed: 50,
           },
           zIndex: {
             random: {
@@ -531,26 +536,32 @@ const ParticlesComponents = () => {
         style: {},
         themes: [],
         zLayers: 100,
-        emitters: {
-          autoPlay: true,
-          fill: true,
-          life: {
-            wait: false,
+        absorbers: {
+          color: {
+            value: '#000000',
           },
-          rate: {
-            quantity: 10,
-            delay: 0.1,
-          },
-          shape: 'square',
-          startCount: 0,
+          draggable: false,
+          opacity: 1,
+          destroy: true,
+          orbits: false,
           size: {
-            mode: 'percent',
-            height: 0,
-            width: 0,
+            random: {
+              enable: true,
+              minimumValue: 5,
+            },
+            value: {
+              min: 5,
+              max: 10,
+            },
+            density: 5,
+            limit: {
+              radius: 100,
+              mass: 0,
+            },
           },
           position: {
             x: 50,
-            y: 100,
+            y: 50,
           },
         },
       }}

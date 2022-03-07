@@ -1,7 +1,7 @@
 import { SnackbarProvider } from 'notistack'
 import 'react-responsive-modal/styles.css'
 
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import '../styles/grid.css'
 import '../styles/nprogress.css'
 
