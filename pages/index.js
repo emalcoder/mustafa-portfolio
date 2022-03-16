@@ -575,7 +575,10 @@ export default function Home() {
 }
 Home.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <Layout
+      title='Mustafa Masoudi'
+      descriptionContent='A professional graphic designer and video editor with Creative, Focused, Detail-oriented Design Professional with a strong work Ethic.'
+    >
       <main>{page}</main>
       <Footer />
     </Layout>
