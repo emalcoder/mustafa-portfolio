@@ -57,7 +57,9 @@ const ContactForm = () => {
       <div className='row justify-center'>
         <div className='col'>
           <div className='text-center'>
-            <h2 className='text-5xl font-bold mb-10'>Get in touch</h2>
+            <h2 className='text-2xl md:text-3xl lg:text-5xl font-bold mb-16 lg:mb-24'>
+              Get in touch
+            </h2>
           </div>
         </div>
       </div>
@@ -96,7 +98,7 @@ const ContactForm = () => {
                   </div>
                   <div className='ml-4'>
                     <h5 className='text-sm md:text-base'>Email</h5>
-                    <div className='text-sm md:text-base'>info@company.com</div>
+                    <div className='text-sm md:text-base'>mustafamasoudi54@gmail.com</div>
                   </div>
                 </li>
               </Fade>
