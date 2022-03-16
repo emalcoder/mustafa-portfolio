@@ -31,7 +31,7 @@ const Layout = ({ children, title, canonical, descriptionContent, jsonLD, active
         />
         <meta name='twitter:image' content='https://rahrawan.af/images/logo.png' />
 
-        <link rel='icon' href='/images/abr-logo.png' sizes='16/16' type='image.png' />
+        <link rel='icon' href='/images/favicon.png' type='image.png' />
         <title>{title}</title>
         <script type='application/ld+json'>{jsonLD}</script>
       </Head>
