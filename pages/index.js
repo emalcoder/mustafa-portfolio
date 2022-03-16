@@ -135,7 +135,13 @@ export default function Home() {
                 </Fade>
                 <Flip>
                   <div className='my-14'>
-                    <button className='bg-secondary text-accents_9 px-8 py-2.5'>Download CV</button>
+                    <a
+                      href='/cv.pdf'
+                      target='_blank'
+                      className='bg-secondary text-accents_9 px-8 py-2.5'
+                    >
+                      Download CV
+                    </a>
                   </div>
                 </Flip>
               </div>
