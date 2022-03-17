@@ -54,9 +54,8 @@ export default function Home() {
   const onCloseModal9 = () => setOpen9(false)
   return (
     <>
-      <div className='hidden lg:block'>
-        <ParticlesComponents />
-      </div>
+      <ParticlesComponents />
+
       <div className='container'>
         <div className='row'>
           <div className='col-12'>
@@ -301,7 +300,7 @@ export default function Home() {
                       <div>
                         <img src='./images/punctuality.png' alt='' />
                         <h3 className='mt-4 mb-2'>Punctuality</h3>
-                        <p>Always get your work done in time, or even before the deadline</p>
+                        <p>Always get your work done on time, or even before the deadline</p>
                       </div>
                     </div>
                   </Fade>

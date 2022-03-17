@@ -12,24 +12,27 @@ const Layout = ({ children, title, canonical, descriptionContent, jsonLD, active
         <meta name='description' content={descriptionContent} />
         <meta name='keywords' content='' />
 
-        <meta property='og:title' content='Rahrawan Travels' />
+        <meta property='og:title' content='Mustafa Masoudi' />
         <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://rahrawan.af/' />
-        <meta property='og:image' content='https://rahrawan.af/images/logo.png' />
-        <meta property='og:site_name' content='Rahrawan Travels' />
+        <meta property='og:url' content='https://mustafadesigner.com/' />
+        <meta property='og:image' content='https://mustafadesigner.com/images/logo.png' />
+        <meta property='og:site_name' content='Mustafa Masoudi' />
         <meta
           property='og:description'
-          content='Rahrawan Travels is a company in Afghanistan that helps people to Study, Invest and Travel abroad in the best way possible. We also help foreigners to have the best travel experience in Afghanistan.'
+          content='Dynamic and innovative professional with years of invaluable hands-on experience in handling several simultaneous creative design projects, concept creation, animation, video production and visual conceptualization.'
         />
-        <meta property='og:image:secure_url' content='https://rahrawan.af/images/logo.png' />
+        <meta
+          property='og:image:secure_url'
+          content='https://mustafadesigner.com/images/logo.png'
+        />
 
         <meta name='twitter:card' content='summary' />
-        <meta name='twitter:title' content='Rahrawan Travels' />
+        <meta name='twitter:title' content='Mustafa Masoudi' />
         <meta
           name='twitter:description'
-          content='Rahrawan Travels is a company in Afghanistan that helps people to Study, Invest and Travel abroad in the best way possible. We also help foreigners to have the best travel experience in Afghanistan.'
+          content='Dynamic and innovative professional with years of invaluable hands-on experience in handling several simultaneous creative design projects, concept creation, animation, video production and visual conceptualization.'
         />
-        <meta name='twitter:image' content='https://rahrawan.af/images/logo.png' />
+        <meta name='twitter:image' content='https://mustafadesigner.com/images/logo.png' />
 
         <link rel='icon' href='/images/favicon.png' type='image.png' />
         <title>{title}</title>
