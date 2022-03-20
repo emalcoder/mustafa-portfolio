@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade'
 import Bounce from 'react-reveal/Bounce'
 import Flip from 'react-reveal/Flip'
 import Roll from 'react-reveal/Roll'
+import Image from 'next/image'
 
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -99,7 +100,14 @@ export default function Home() {
 
                 <div className='!order-1 md:!order-2 md:flex-1 lg:flex-auto'>
                   <Fade right>
-                    <img src='./images/mustafa-img.png' alt='' className='w-[25rem] lg:w-[50rem]' />
+                    <Image
+                      width='800px'
+                      height='800px'
+                      Layout='responsive'
+                      src='/images/mustafa-img-tinified.png'
+                      alt=''
+                      className='w-[25rem] lg:w-[50rem]'
+                    />
                   </Fade>
                 </div>
               </div>
@@ -287,7 +295,7 @@ export default function Home() {
                   <Fade up>
                     <div className='bg-accents_8 h-60 max-h-full flex items-center justify-start lg:justify-center px-4 py-6 rounded-md shadow-2xl mb-6 lg:mb-0'>
                       <div>
-                        <img src='./images/creativity.png' alt='' />
+                        <img src='/images/creativity.png' alt='' />
                         <h3 className='mt-4 mb-2'>Creativity</h3>
                         <p>Unlimited flow of Ideas and an out of box Mind</p>
                       </div>
@@ -298,7 +306,7 @@ export default function Home() {
                   <Fade up>
                     <div className='bg-accents_8 h-60 max-h-full flex items-center justify-start lg:justify-center px-4 py-6 rounded-md shadow-2xl mb-6 lg:mb-0'>
                       <div>
-                        <img src='./images/punctuality.png' alt='' />
+                        <img src='/images/punctuality.png' alt='' />
                         <h3 className='mt-4 mb-2'>Punctuality</h3>
                         <p>Always get your work done on time, or even before the deadline</p>
                       </div>
@@ -309,7 +317,7 @@ export default function Home() {
                   <Fade up>
                     <div className='bg-accents_8 h-60 max-h-full flex items-center justify-start lg:justify-center px-4 py-6 rounded-md shadow-2xl mb-6 lg:mb-0'>
                       <div>
-                        <img src='./images/payment-rate.png' alt='' />
+                        <img src='/images/payment-rate.png' alt='' />
                         <h3 className='mt-4 mb-2'>Perfect Payment Rate</h3>
                         <p>Achieve the maximum Quality of work with minimum Payment</p>
                       </div>
@@ -320,7 +328,7 @@ export default function Home() {
                   <Fade up>
                     <div className='bg-accents_8 h-60 max-h-full flex items-center justify-start lg:justify-center px-4 py-6 rounded-md shadow-2xl mb-6 lg:mb-0'>
                       <div>
-                        <img src='./images/up-to-date.png' alt='' />
+                        <img src='/images/up-to-date.png' alt='' />
                         <h3 className='mt-4 mb-2'>Up to Date</h3>
                         <p>I always keep an Open eye on all the worldwide design Trends</p>
                       </div>
@@ -348,7 +356,13 @@ export default function Home() {
               <Fade up>
                 <div className='cards cards--item' onClick={onOpenModal9}>
                   <div className='h-full flex items-center justify-center'>
-                    <img src='./images/projects/9.jpg' alt='h-full' />
+                    <Image
+                      blurDataURL=''
+                      layout='fill'
+                      objectFit='contain'
+                      src='/images/projects/9.jpg'
+                      alt='h-full'
+                    />
                   </div>
                   <span className='cards--item__rect'></span>
                   <span className='cards--item__tri'></span>
@@ -361,7 +375,14 @@ export default function Home() {
                   initialFocusRef={modalRef}
                   ref={modalRef}
                 >
-                  <img src='./images/projects/9.jpg' alt='' className='mt-8' />
+                  <Image
+                    blurDataURL=''
+                    layout='fill'
+                    objectFit='contain'
+                    src='/images/projects/9.jpg'
+                    alt=''
+                    className='mt-8'
+                  />
                 </Modal>
               </Fade>
             </div>
@@ -369,7 +390,13 @@ export default function Home() {
               <Fade up>
                 <div className='cards cards--item' onClick={onOpenModal1}>
                   <div className='h-full flex items-center justify-center'>
-                    <img src='./images/projects/1.jpg' alt='h-full' />
+                    <Image
+                      blurDataURL=''
+                      layout='fill'
+                      objectFit='contain'
+                      src='/images/projects/1.jpg'
+                      alt='h-full'
+                    />
                   </div>
                   <span className='cards--item__rect'></span>
                   <span className='cards--item__tri'></span>
@@ -382,7 +409,14 @@ export default function Home() {
                   initialFocusRef={modalRef}
                   ref={modalRef}
                 >
-                  <img src='./images/projects/1.jpg' alt='' className='mt-8' />
+                  <Image
+                    blurDataURL=''
+                    layout='fill'
+                    objectFit='contain'
+                    src='/images/projects/1.jpg'
+                    alt=''
+                    className='mt-8'
+                  />
                 </Modal>
               </Fade>
             </div>
@@ -390,7 +424,14 @@ export default function Home() {
               <Fade up>
                 <div className='cards cards--item' onClick={onOpenModal2}>
                   <div className='h-full flex items-center justify-center'>
-                    <img src='./images/projects/2.png' alt='' className='h-full' />
+                    <Image
+                      blurDataURL=''
+                      layout='fill'
+                      objectFit='contain'
+                      src='/images/projects/2.png'
+                      alt=''
+                      className='h-full'
+                    />
                   </div>
                   <span className='cards--item__rect'></span>
                   <span className='cards--item__tri'></span>
@@ -403,7 +444,14 @@ export default function Home() {
                   initialFocusRef={modalRef}
                   ref={modalRef}
                 >
-                  <img src='./images/projects/2.png' alt='' className='mt-8' />
+                  <Image
+                    blurDataURL=''
+                    layout='fill'
+                    objectFit='contain'
+                    src='/images/projects/2.png'
+                    alt=''
+                    className='mt-8'
+                  />
                 </Modal>
               </Fade>
             </div>
@@ -411,7 +459,13 @@ export default function Home() {
               <Fade up>
                 <div className='cards cards--item' onClick={onOpenModal3}>
                   <div className='h-full flex items-center justify-center'>
-                    <img src='./images/projects/3.png' alt='h-full' />
+                    <Image
+                      blurDataURL=''
+                      layout='fill'
+                      objectFit='contain'
+                      src='/images/projects/3.png'
+                      alt='h-full'
+                    />
                   </div>
                   <span className='cards--item__rect'></span>
                   <span className='cards--item__tri'></span>
@@ -424,7 +478,14 @@ export default function Home() {
                   initialFocusRef={modalRef}
                   ref={modalRef}
                 >
-                  <img src='./images/projects/3.jpg' alt='' className='mt-8' />
+                  <Image
+                    blurDataURL=''
+                    layout='fill'
+                    objectFit='contain'
+                    src='/images/projects/3.jpg'
+                    alt=''
+                    className='mt-8'
+                  />
                 </Modal>
               </Fade>
             </div>
@@ -432,7 +493,13 @@ export default function Home() {
               <Fade up>
                 <div className='cards cards--item' onClick={onOpenModal4}>
                   <div className='h-full flex items-center justify-center'>
-                    <img src='./images/projects/4.jpeg' alt='h-full' />
+                    <Image
+                      blurDataURL=''
+                      layout='fill'
+                      objectFit='contain'
+                      src='/images/projects/4.jpeg'
+                      alt='h-full'
+                    />
                   </div>
                   <span className='cards--item__rect'></span>
                   <span className='cards--item__tri'></span>
@@ -445,7 +512,14 @@ export default function Home() {
                   initialFocusRef={modalRef}
                   ref={modalRef}
                 >
-                  <img src='./images/projects/4.jpeg' alt='' className='mt-8' />
+                  <Image
+                    blurDataURL=''
+                    layout='fill'
+                    objectFit='contain'
+                    src='/images/projects/4.jpeg'
+                    alt=''
+                    className='mt-8'
+                  />
                 </Modal>
               </Fade>
             </div>
@@ -453,7 +527,13 @@ export default function Home() {
               <Fade up>
                 <div className='cards cards--item' onClick={onOpenModal5}>
                   <div className='h-full flex items-center justify-center'>
-                    <img src='./images/projects/5.jpg' alt='h-full' />
+                    <Image
+                      blurDataURL=''
+                      layout='fill'
+                      objectFit='contain'
+                      src='/images/projects/5.jpg'
+                      alt='h-full'
+                    />
                   </div>
                   <span className='cards--item__rect'></span>
                   <span className='cards--item__tri'></span>
@@ -466,7 +546,14 @@ export default function Home() {
                   initialFocusRef={modalRef}
                   ref={modalRef}
                 >
-                  <img src='./images/projects/5.jpg' alt='' className='mt-8' />
+                  <Image
+                    blurDataURL=''
+                    layout='fill'
+                    objectFit='contain'
+                    src='/images/projects/5.jpg'
+                    alt=''
+                    className='mt-8'
+                  />
                 </Modal>
               </Fade>
             </div>
@@ -474,7 +561,13 @@ export default function Home() {
               <Fade up>
                 <div className='cards cards--item' onClick={onOpenModal6}>
                   <div className='h-full flex items-center justify-center'>
-                    <img src='./images/projects/6.jpg' alt='h-full' />
+                    <Image
+                      blurDataURL=''
+                      layout='fill'
+                      objectFit='contain'
+                      src='/images/projects/6.jpg'
+                      alt='h-full'
+                    />
                   </div>
                   <span className='cards--item__rect'></span>
                   <span className='cards--item__tri'></span>
@@ -487,7 +580,14 @@ export default function Home() {
                   initialFocusRef={modalRef}
                   ref={modalRef}
                 >
-                  <img src='./images/projects/6.jpg' alt='' className='mt-8' />
+                  <Image
+                    blurDataURL=''
+                    layout='fill'
+                    objectFit='contain'
+                    src='/images/projects/6.jpg'
+                    alt=''
+                    className='mt-8'
+                  />
                 </Modal>
               </Fade>
             </div>
@@ -495,7 +595,13 @@ export default function Home() {
               <Fade up>
                 <div className='cards cards--item' onClick={onOpenModal7}>
                   <div className='h-full flex items-center justify-center'>
-                    <img src='./images/projects/7.jpg' alt='h-full' />
+                    <Image
+                      blurDataURL=''
+                      layout='fill'
+                      objectFit='contain'
+                      src='/images/projects/7.jpg'
+                      alt='h-full'
+                    />
                   </div>
                   <span className='cards--item__rect'></span>
                   <span className='cards--item__tri'></span>
@@ -508,7 +614,14 @@ export default function Home() {
                   initialFocusRef={modalRef}
                   ref={modalRef}
                 >
-                  <img src='./images/projects/7.jpg' alt='' className='mt-8' />
+                  <Image
+                    blurDataURL=''
+                    layout='fill'
+                    objectFit='contain'
+                    src='/images/projects/7.jpg'
+                    alt=''
+                    className='mt-8'
+                  />
                 </Modal>
               </Fade>
             </div>
@@ -516,7 +629,13 @@ export default function Home() {
               <Fade up>
                 <div className='cards cards--item' onClick={onOpenModal8}>
                   <div className='h-full flex items-center justify-center'>
-                    <img src='./images/projects/8.jpg' alt='h-full' />
+                    <Image
+                      blurDataURL=''
+                      layout='fill'
+                      objectFit='contain'
+                      src='/images/projects/8.jpg'
+                      alt='h-full'
+                    />
                   </div>
                   <span className='cards--item__rect'></span>
                   <span className='cards--item__tri'></span>
@@ -529,7 +648,14 @@ export default function Home() {
                   initialFocusRef={modalRef}
                   ref={modalRef}
                 >
-                  <img src='./images/projects/8.jpg' alt='' className='mt-8' />
+                  <Image
+                    blurDataURL=''
+                    layout='fill'
+                    objectFit='contain'
+                    src='/images/projects/8.jpg'
+                    alt=''
+                    className='mt-8'
+                  />
                 </Modal>
               </Fade>
             </div>
