@@ -56,7 +56,6 @@ export default function Home() {
   return (
     <>
       <ParticlesComponents />
-
       <div className='container'>
         <div className='row'>
           <div className='col-12'>

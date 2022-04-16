@@ -68,6 +68,7 @@ const ResponsiveHeader = ({ activePage, language, handleChange }) => {
                         <a
                           className={`text-accents_9
                             ${router.asPath === '/' ? 'text-accents_9' : 'hover:text-tertiary'}`}
+                          onClick={() => setShowMenu(false)}
                         >
                           Home
                         </a>
@@ -80,6 +81,7 @@ const ResponsiveHeader = ({ activePage, language, handleChange }) => {
                             ${
                               router.asPath === '/#about' ? 'text-accents_9' : 'hover:text-tertiary'
                             }`}
+                          onClick={() => setShowMenu(false)}
                         >
                           About
                         </a>
@@ -95,6 +97,7 @@ const ResponsiveHeader = ({ activePage, language, handleChange }) => {
                                 ? 'text-accents_9'
                                 : 'hover:text-tertiary'
                             }`}
+                          onClick={() => setShowMenu(false)}
                         >
                           Skills
                         </a>
@@ -109,6 +112,7 @@ const ResponsiveHeader = ({ activePage, language, handleChange }) => {
                                 ? 'text-accents_9'
                                 : 'hover:text-tertiary'
                             }`}
+                          onClick={() => setShowMenu(false)}
                         >
                           Projects
                         </a>
@@ -123,6 +127,7 @@ const ResponsiveHeader = ({ activePage, language, handleChange }) => {
                                 ? 'text-accents_9'
                                 : 'hover:text-tertiary'
                             }`}
+                          onClick={() => setShowMenu(false)}
                         >
                           Contact Me
                         </a>
