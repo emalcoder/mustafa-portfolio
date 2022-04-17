@@ -368,10 +368,12 @@ export default function Home() {
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>VIP Watch</p>
                 </div>
                 <Modal open={open9} onClose={onCloseModal9} center>
-                  <img
-                    className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                    src='/images/projects/9.jpg'
-                  />
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                    <img
+                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      src='/images/projects/9.jpg'
+                    />
+                  </div>{' '}
                 </Modal>
               </Fade>
             </div>
@@ -392,10 +394,12 @@ export default function Home() {
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Adore furniture</p>
                 </div>
                 <Modal open={open1} onClose={onCloseModal1} center>
-                  <img
-                    className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                    src='/images/projects/1.jpg'
-                  />
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                    <img
+                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      src='/images/projects/1.jpg'
+                    />
+                  </div>{' '}
                 </Modal>
               </Fade>
             </div>
@@ -417,10 +421,12 @@ export default function Home() {
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Arj Social Organization</p>
                 </div>
                 <Modal open={open2} onClose={onCloseModal2} center>
-                  <img
-                    className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                    src='/images/projects/2.png'
-                  />
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                    <img
+                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      src='/images/projects/2.png'
+                    />
+                  </div>{' '}
                 </Modal>
               </Fade>
             </div>
@@ -441,10 +447,12 @@ export default function Home() {
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Green Sketch</p>
                 </div>
                 <Modal open={open3} onClose={onCloseModal3} center>
-                  <img
-                    className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                    src='/images/projects/3.jpg'
-                  />
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                    <img
+                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      src='/images/projects/3.jpg'
+                    />
+                  </div>{' '}
                 </Modal>
               </Fade>
             </div>
@@ -465,10 +473,12 @@ export default function Home() {
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Kavesh</p>
                 </div>
                 <Modal open={open4} onClose={onCloseModal4} center>
-                  <img
-                    className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                    src='/images/projects/4.jpeg'
-                  />
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                    <img
+                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      src='/images/projects/4.jpeg'
+                    />
+                  </div>{' '}
                 </Modal>
               </Fade>
             </div>
@@ -489,10 +499,12 @@ export default function Home() {
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Masnad Law Firm Letterhead</p>
                 </div>
                 <Modal open={open5} onClose={onCloseModal5} center>
-                  <img
-                    className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                    src='/images/projects/5.jpg'
-                  />
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                    <img
+                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      src='/images/projects/5.jpg'
+                    />
+                  </div>{' '}
                 </Modal>
               </Fade>
             </div>
@@ -513,10 +525,12 @@ export default function Home() {
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>MM Design</p>
                 </div>
                 <Modal open={open6} onClose={onCloseModal6} center>
-                  <img
-                    className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                    src='/images/projects/6.jpg'
-                  />
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                    <img
+                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      src='/images/projects/6.jpg'
+                    />
+                  </div>{' '}
                 </Modal>
               </Fade>
             </div>
@@ -537,10 +551,12 @@ export default function Home() {
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Rahrawan Travels</p>
                 </div>
                 <Modal open={open7} onClose={onCloseModal7} center>
-                  <img
-                    className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                    src='/images/projects/7.jpg'
-                  />
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                    <img
+                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      src='/images/projects/7.jpg'
+                    />
+                  </div>{' '}
                 </Modal>
               </Fade>
             </div>
@@ -561,10 +577,12 @@ export default function Home() {
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Tatto Artist</p>
                 </div>
                 <Modal open={open8} onClose={onCloseModal8} center>
-                  <img
-                    className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                    src='/images/projects/8.jpg'
-                  />
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                    <img
+                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      src='/images/projects/8.jpg'
+                    />
+                  </div>{' '}
                 </Modal>
               </Fade>
             </div>
