@@ -1,5 +1,4 @@
 import { SnackbarProvider } from 'notistack'
-
 import 'react-pure-modal/dist/react-pure-modal.min.css'
 
 import '../styles/globals.scss'

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Modal } from 'react-responsive-modal'
 import Fade from 'react-reveal/Fade'
 import Bounce from 'react-reveal/Bounce'
 import Flip from 'react-reveal/Flip'
@@ -377,6 +376,7 @@ export default function Home() {
                   }
                   closeButtonPosition='bottom'
                   onClose={() => setOpen9(false)}
+                  className='!w-auto !h-auto'
                 >
                   <div className=''>
                     <img className='' width='762' height='571' src='/images/projects/9.jpg' />
@@ -400,16 +400,21 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Adore furniture</p>
                 </div>
-                <Modal open={open1} onClose={onCloseModal1} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                    <img
-                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                      width='762'
-                      height='571'
-                      src='/images/projects/1.jpg'
-                    />
+                <PureModal
+                  isOpen={open1}
+                  closeButton={
+                    <svg className='svg-icon' viewBox='0 0 20 20'>
+                      <path d='M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z'></path>
+                    </svg>
+                  }
+                  closeButtonPosition='bottom'
+                  onClose={() => setOpen1(false)}
+                  className='!w-auto !h-auto'
+                >
+                  <div className=''>
+                    <img className='' width='762' height='571' src='/images/projects/1.jpg' />
                   </div>
-                </Modal>
+                </PureModal>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
@@ -429,16 +434,21 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Arj Social Organization</p>
                 </div>
-                <Modal open={open2} onClose={onCloseModal2} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                    <img
-                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                      width='762'
-                      height='571'
-                      src='/images/projects/2.png'
-                    />
+                <PureModal
+                  isOpen={open2}
+                  closeButton={
+                    <svg className='svg-icon' viewBox='0 0 20 20'>
+                      <path d='M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z'></path>
+                    </svg>
+                  }
+                  closeButtonPosition='bottom'
+                  onClose={() => setOpen2(false)}
+                  className='!w-auto !h-auto'
+                >
+                  <div className=''>
+                    <img className='' width='762' height='571' src='/images/projects/2.png' />
                   </div>
-                </Modal>
+                </PureModal>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
@@ -457,16 +467,21 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Green Sketch</p>
                 </div>
-                <Modal open={open3} onClose={onCloseModal3} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                    <img
-                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                      width='762'
-                      height='571'
-                      src='/images/projects/3.jpg'
-                    />
+                <PureModal
+                  isOpen={open3}
+                  closeButton={
+                    <svg className='svg-icon' viewBox='0 0 20 20'>
+                      <path d='M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z'></path>
+                    </svg>
+                  }
+                  closeButtonPosition='bottom'
+                  onClose={() => setOpen3(false)}
+                  className='!w-auto !h-auto'
+                >
+                  <div className=''>
+                    <img className='' width='762' height='571' src='/images/projects/3.jpg' />
                   </div>
-                </Modal>
+                </PureModal>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
@@ -485,16 +500,21 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Kavesh</p>
                 </div>
-                <Modal open={open4} onClose={onCloseModal4} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                    <img
-                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                      width='762'
-                      height='571'
-                      src='/images/projects/4.jpeg'
-                    />
+                <PureModal
+                  isOpen={open4}
+                  closeButton={
+                    <svg className='svg-icon' viewBox='0 0 20 20'>
+                      <path d='M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z'></path>
+                    </svg>
+                  }
+                  closeButtonPosition='bottom'
+                  onClose={() => setOpen4(false)}
+                  className='!w-auto !h-auto'
+                >
+                  <div className=''>
+                    <img className='' width='762' height='571' src='/images/projects/4.jpeg' />
                   </div>
-                </Modal>
+                </PureModal>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
@@ -513,16 +533,21 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Masnad Law Firm Letterhead</p>
                 </div>
-                <Modal open={open5} onClose={onCloseModal5} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                    <img
-                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                      width='762'
-                      height='571'
-                      src='/images/projects/5.jpg'
-                    />
+                <PureModal
+                  isOpen={open5}
+                  closeButton={
+                    <svg className='svg-icon' viewBox='0 0 20 20'>
+                      <path d='M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z'></path>
+                    </svg>
+                  }
+                  closeButtonPosition='bottom'
+                  onClose={() => setOpen5(false)}
+                  className='!w-auto !h-auto'
+                >
+                  <div className=''>
+                    <img className='' width='762' height='571' src='/images/projects/5.jpg' />
                   </div>
-                </Modal>
+                </PureModal>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
@@ -541,16 +566,21 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>MM Design</p>
                 </div>
-                <Modal open={open6} onClose={onCloseModal6} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                    <img
-                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                      width='762'
-                      height='571'
-                      src='/images/projects/6.jpg'
-                    />
+                <PureModal
+                  isOpen={open6}
+                  closeButton={
+                    <svg className='svg-icon' viewBox='0 0 20 20'>
+                      <path d='M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z'></path>
+                    </svg>
+                  }
+                  closeButtonPosition='bottom'
+                  onClose={() => setOpen6(false)}
+                  className='!w-auto !h-auto'
+                >
+                  <div className=''>
+                    <img className='' width='762' height='571' src='/images/projects/6.jpg' />
                   </div>
-                </Modal>
+                </PureModal>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
@@ -569,16 +599,21 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Rahrawan Travels</p>
                 </div>
-                <Modal open={open7} onClose={onCloseModal7} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                    <img
-                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                      width='762'
-                      height='571'
-                      src='/images/projects/7.jpg'
-                    />
+                <PureModal
+                  isOpen={open7}
+                  closeButton={
+                    <svg className='svg-icon' viewBox='0 0 20 20'>
+                      <path d='M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z'></path>
+                    </svg>
+                  }
+                  closeButtonPosition='bottom'
+                  onClose={() => setOpen7(false)}
+                  className='!w-auto !h-auto'
+                >
+                  <div className=''>
+                    <img className='' width='762' height='571' src='/images/projects/7.jpg' />
                   </div>
-                </Modal>
+                </PureModal>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
@@ -597,16 +632,21 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Tatto Artist</p>
                 </div>
-                <Modal open={open8} onClose={onCloseModal8} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                    <img
-                      className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
-                      width='762'
-                      height='571'
-                      src='/images/projects/8.jpg'
-                    />
+                <PureModal
+                  isOpen={open8}
+                  closeButton={
+                    <svg className='svg-icon' viewBox='0 0 20 20'>
+                      <path d='M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z'></path>
+                    </svg>
+                  }
+                  closeButtonPosition='bottom'
+                  onClose={() => setOpen8(false)}
+                  className='!w-auto !h-auto'
+                >
+                  <div className=''>
+                    <img className='' width='762' height='571' src='/images/projects/8.jpg' />
                   </div>
-                </Modal>
+                </PureModal>
               </Fade>
             </div>
           </div>
