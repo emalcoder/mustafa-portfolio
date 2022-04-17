@@ -371,9 +371,11 @@ export default function Home() {
                   <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      width='762'
+                      height='571'
                       src='/images/projects/9.jpg'
                     />
-                  </div>{' '}
+                  </div>
                 </Modal>
               </Fade>
             </div>
@@ -397,9 +399,11 @@ export default function Home() {
                   <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      width='762'
+                      height='571'
                       src='/images/projects/1.jpg'
                     />
-                  </div>{' '}
+                  </div>
                 </Modal>
               </Fade>
             </div>
@@ -424,9 +428,11 @@ export default function Home() {
                   <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      width='762'
+                      height='571'
                       src='/images/projects/2.png'
                     />
-                  </div>{' '}
+                  </div>
                 </Modal>
               </Fade>
             </div>
@@ -450,9 +456,11 @@ export default function Home() {
                   <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      width='762'
+                      height='571'
                       src='/images/projects/3.jpg'
                     />
-                  </div>{' '}
+                  </div>
                 </Modal>
               </Fade>
             </div>
@@ -476,9 +484,11 @@ export default function Home() {
                   <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      width='762'
+                      height='571'
                       src='/images/projects/4.jpeg'
                     />
-                  </div>{' '}
+                  </div>
                 </Modal>
               </Fade>
             </div>
@@ -502,9 +512,11 @@ export default function Home() {
                   <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      width='762'
+                      height='571'
                       src='/images/projects/5.jpg'
                     />
-                  </div>{' '}
+                  </div>
                 </Modal>
               </Fade>
             </div>
@@ -528,9 +540,11 @@ export default function Home() {
                   <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      width='762'
+                      height='571'
                       src='/images/projects/6.jpg'
                     />
-                  </div>{' '}
+                  </div>
                 </Modal>
               </Fade>
             </div>
@@ -554,9 +568,11 @@ export default function Home() {
                   <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      width='762'
+                      height='571'
                       src='/images/projects/7.jpg'
                     />
-                  </div>{' '}
+                  </div>
                 </Modal>
               </Fade>
             </div>
@@ -580,9 +596,11 @@ export default function Home() {
                   <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                      width='762'
+                      height='571'
                       src='/images/projects/8.jpg'
                     />
-                  </div>{' '}
+                  </div>
                 </Modal>
               </Fade>
             </div>
