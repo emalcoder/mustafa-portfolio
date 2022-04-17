@@ -367,16 +367,16 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>VIP Watch</p>
                 </div>
-                <Modal open={open9} onClose={onCloseModal9} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                  <Modal open={open9} onClose={onCloseModal9} center>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
                       width='762'
                       height='571'
                       src='/images/projects/9.jpg'
                     />
-                  </div>
-                </Modal>
+                  </Modal>
+                </div>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
@@ -395,16 +395,16 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Adore furniture</p>
                 </div>
-                <Modal open={open1} onClose={onCloseModal1} center>
-                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
+                  <Modal open={open1} onClose={onCloseModal1} center>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
                       width='762'
                       height='571'
                       src='/images/projects/1.jpg'
                     />
-                  </div>
-                </Modal>
+                  </Modal>
+                </div>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
