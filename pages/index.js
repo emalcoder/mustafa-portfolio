@@ -367,16 +367,21 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>VIP Watch</p>
                 </div>
-                <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                  <Modal open={open9} onClose={onCloseModal9} center>
+                <Modal
+                  open={open9}
+                  onClose={onCloseModal9}
+                  center
+                  classNames='mt-8 w-[330px] h-auto md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
+                >
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
                       width='762'
                       height='571'
                       src='/images/projects/9.jpg'
                     />
-                  </Modal>
-                </div>
+                  </div>
+                </Modal>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
@@ -395,16 +400,16 @@ export default function Home() {
                   <span className='cards--item__tri'></span>
                   <p className='uppercase text-sm w-20 ml-4 pb-2'>Adore furniture</p>
                 </div>
-                <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
-                  <Modal open={open1} onClose={onCloseModal1} center>
+                <Modal open={open1} onClose={onCloseModal1} center>
+                  <div className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'>
                     <img
                       className='mt-8 w-[330px] md:w-auto lg:max-w-[762px] lg:max-h-[571px]'
                       width='762'
                       height='571'
                       src='/images/projects/1.jpg'
                     />
-                  </Modal>
-                </div>
+                  </div>
+                </Modal>
               </Fade>
             </div>
             <div className='col-sm-12 col-md-6 col-lg-4 flex items-center justify-center cursor-pointer relative mb-12'>
