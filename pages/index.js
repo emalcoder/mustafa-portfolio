@@ -139,17 +139,6 @@ export default function Home() {
                     </p>
                   </div>
                 </Fade>
-                <Flip>
-                  <div className='my-14'>
-                    <a
-                      href='/cv.pdf'
-                      target='_blank'
-                      className='bg-secondary text-accents_9 px-8 py-2.5'
-                    >
-                      Download CV
-                    </a>
-                  </div>
-                </Flip>
               </div>
             </div>
             <div className='col-lg-6'>
