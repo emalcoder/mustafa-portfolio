@@ -74,9 +74,7 @@ const ContactForm = () => {
                   </div>
                   <div className='ml-4'>
                     <h5 className='text-sm md:text-base'>Address</h5>
-                    <address className='not-italic text-sm md:text-base'>
-                      Kantstraße 40, 10625 Berlin
-                    </address>
+                    <address className='not-italic text-sm md:text-base'>Anaheim, CA 92801</address>
                   </div>
                 </li>
               </Fade>
@@ -87,7 +85,7 @@ const ContactForm = () => {
                   </div>
                   <div className='ml-4'>
                     <h5 className='text-sm md:text-base'>Phone</h5>
-                    <div className='text-sm'>+49 1609 7757307</div>
+                    <div className='text-sm'>+1 (714) 724-4966</div>
                   </div>
                 </li>
               </Fade>
