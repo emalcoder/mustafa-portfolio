@@ -23,8 +23,7 @@
     "react-spinners": "^0.11.0",
     "react-tsparticles": "^1.41.6",
     "sass": "^1.49.9",
-    "tsparticles": "^1.41.6",
-    "tsparticles-shape-confetti": "^1.14.2"
+    "tsparticles": "^1.41.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
