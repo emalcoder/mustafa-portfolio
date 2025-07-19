@@ -97,7 +97,7 @@ export default function Home() {
                   </Fade>
                 </div>
 
-                <div className='!order-1 md:!order-2 md:flex-1 lg:flex-auto'>
+  {/*<div className='!order-1 md:!order-2 md:flex-1 lg:flex-auto'>
                   <Fade right>
                     <Image
                       width='800px'
@@ -109,6 +109,7 @@ export default function Home() {
                     />
                   </Fade>
                 </div>
+                */}
               </div>
             </div>
           </div>
